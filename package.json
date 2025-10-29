@@ -1,0 +1,38 @@
+{
+  "name": "adpaas-mvp-saas-starter",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@supabase/ssr": "^0.7.0",
+    "@supabase/supabase-js": "^2.74.0",
+    "lucide-react": "^0.545.0",
+    "next": "14.2.33",
+    "pdfkit": "^0.17.2",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "recharts": "^3.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.11.19",
+    "@types/pdfkit": "^0.17.3",
+    "@types/react": "18.2.66",
+    "@types/react-dom": "18.2.22",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "14.2.3",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.18",
+    "typescript": "5.4.5"
+  },
+  "css.lint.unknownAtRules": "ignore",
+  "files.associations": {
+    "*.css": "tailwindcss"
+  }
+}
